@@ -1,38 +1,51 @@
-.App {
+body{
+  color: white;
+  font-family: cursive;
+  overflow: hidden;
+}
+
+.light{
+  margin-left: 90%;
+  margin-top:2%;
+  cursor: pointer;
+}
+h1{
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dark-mode{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assest/4K-OLED-Wallpaper-HD-Free-download.jpg");
   color: white;
+  background-size: cover;
+
 }
 
-.App-link {
-  color: #61dafb;
+.light-mode{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assest/play-firewatch-wallpaper-2048x1152_49.jpg");
+  background-size: cover;
+ background-attachment: fixed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+
+}
+
+.weatherBox{
+
+ width: 50%;
+ 
+border-radius: 20px;
+background-color: rgba(84, 83, 83, 0.3);
+text-align: center;
+padding: 50px;
+/* box-sizing:border-box; */
 }

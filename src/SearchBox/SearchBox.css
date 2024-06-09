@@ -1,0 +1,15 @@
+.input{
+    background-color: rgba(83, 83, 84, 0.8);
+    border-radius: 20px;
+  
+    
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+    padding-left: 10px;
+   width: 48px !important;
+   cursor: pointer;
+}

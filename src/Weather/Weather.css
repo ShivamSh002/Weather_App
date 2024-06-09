@@ -1,0 +1,24 @@
+.tempWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 50px;
+    padding-inline-start: 50px;
+    gap: 50px;
+}
+
+.boxWrapper{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 10px;
+}
+
+.box{
+    background-color:rgba(84, 83, 83, 0.7);
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 150px;
+}
